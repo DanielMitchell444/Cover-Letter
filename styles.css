@@ -1,0 +1,337 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+    background-color: rgb(204, 204, 204);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        height: 100px;
+       }
+       
+       h1{
+        color: white;
+        font-size: 40px;
+       }
+
+       .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       }
+
+       .Personal, .Work{
+        display: flex;
+        margin-left: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: auto;
+        border: none;
+        text-align: center;
+        background-color: rgb(238, 238, 238);
+        width: 110mm;
+        padding: 1rem;
+    }
+
+    .inputs, .inputs2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       }
+       
+       
+       #field{
+           width: 100mm;
+           display: flex;
+           justify-content: flex-start;
+           align-items: center;
+           flex-direction: column;
+           margin-top: 20px;
+           padding: 0.5rem;
+           border-radius: 5px;
+          }
+
+          .resume{
+            width: 120mm;
+            height: 180mm;
+            background-color: white;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+           }
+           
+           .resume header{
+            margin-top: 40px;
+           }
+           
+           header{
+            padding: 0.5rem;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+           }
+           
+           
+           hr{
+            border: 1px solid black;
+            width: 110mm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+           }
+           
+           
+           .ed{
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+           }
+           
+
+
+    @media(min-width: 468px){
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            height: 100px;
+           }
+           
+           h1{
+            color: white;
+            font-size: 40px;
+           }
+    
+           .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+           }
+    
+           .Personal, .Work{
+            display: flex;
+            margin-left: auto;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-right: auto;
+            border: none;
+            text-align: center;
+            background-color: rgb(238, 238, 238);
+            width: 160mm;
+            padding: 1rem;
+        }
+    
+        .inputs, .inputs2{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+           }
+           
+           
+           #field{
+               width: 150mm;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+               margin-top: 20px;
+               padding: 0.5rem;
+               border-radius: 5px;
+              }
+     
+    }
+
+    @media(min-width: 500px){
+     .Personal, .Work{
+       width: 160mm;
+     }
+
+     #field{
+     width: 120mm;
+     }
+    }
+
+
+    @media(min-width: 600px){
+        .Personal, .Work{
+        
+            width: 160mm;
+
+        }
+    }
+
+
+@media(min-width: 768px){
+  
+       
+       /*CSS FOR SECTION 
+       ---------------------
+       */
+       
+       .container{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       }
+       
+       .Personal, .Work{
+           display: flex;
+           margin-left: auto;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+           margin-right: auto;
+           border: none;
+           text-align: center;
+           background-color: rgb(238, 238, 238);
+           width: 210mm;
+           padding: 1rem;
+       }
+       
+       .education{
+       
+       }
+       
+       .inputs, .inputs2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       }
+       
+       
+       #field{
+           width: 180mm;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin-top: 20px;
+           padding: 0.5rem;
+           border-radius: 5px;
+          }
+       
+          .field{
+           width: 180mm;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin-top: 20px;
+           padding: 0.5rem;
+           border-radius: 5px;
+          }
+       
+       
+          h2{
+        margin-top: 20px;
+        text-align: center;
+          }
+       
+       
+       /*CSS FOR ADD AND DELETE BUTTON 
+       
+       -----------------------
+       */
+       
+       
+       .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+       }
+       
+       .Add, .Delete{
+           width: 90%;
+           border-radius: 5px;
+           padding: 0.5rem;
+           margin-top: 20px;
+       }
+       
+       
+       /*CSS FOR EDUCATION */
+       
+       .education{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+       
+       }
+       
+       
+       
+       /*CSS FOR RESUME 
+       --------------------
+       */
+       
+       .resume{
+        width: 210mm;
+        height: 180mm;
+        background-color: white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+       }
+       
+       .resume header{
+        margin-top: 40px;
+       }
+       
+       header{
+        padding: 0.5rem;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       }
+       
+       
+       hr{
+        border: 1px solid black;
+        width: 750px;
+        margin-top: 20px;
+       }
+       
+       
+       .information{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+       }
+
+       .work{
+       display: flex;
+       margin-top: 20px;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+       }
+       
+}
